@@ -2,7 +2,7 @@ const util = require("../util");
 
 const durationPattern = /^[0-5]?[0-9](:[0-5][0-9]){1,2}$/;
 
-module.exports = {
+module.exports = {             
     name: "seek",
     aliases: ["sk","Sk"],
     exec: async (msg, args) => {
